@@ -104,9 +104,9 @@ header #logotipo {
 	top: 20px;
 	z-index: 3;
 }
-#banner h1.efeito{
+#banner h1.efeito {
 	color:red;
-	font-size:12em;	
+	font-size:12em;
 }
 #menu {
 	margin: 12px 0;
@@ -117,10 +117,10 @@ header #logotipo {
 }
 #menu li.search {
 	width: 182px;
-	transition-timing-function: cubic-bezier(1, -.91,.91,1);
+	transition-timing-function: cubic-bezier(1,-.91,.91,1);
 	transition-duration: 1s;
 }
-#menu li.search.ativo{
+#menu li.search.ativo {
 	width: 300px;
 }
 #menu li.search input {
@@ -131,8 +131,7 @@ header #logotipo {
 	line-height: 30px;
 	padding-left: 8px;
 }
-
-#menu li.search.ativo input{
+#menu li.search.ativo input {
 	width: 300px;
 }
 #menu li.search ::-webkit-input-placeholder {
@@ -213,6 +212,12 @@ header #logotipo {
 	color:#A7A7A7;
 	font-size: 18px;
 	font-family: 'OpenSans';
+}
+#news .thumbnails .item-inner {
+	padding: 10px;
+}
+#news .thumbnails .item-inner img {
+	width: 100%;
 }
 #estatisticas {
 	background-color: #5E299A;
