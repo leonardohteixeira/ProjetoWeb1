@@ -386,3 +386,9 @@ footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
 }
+video {
+	width: 60%;
+}
+#btn-bars, #btn-search, #btn-news-prev, #btn-news-next {
+	display: none;
+}
